@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Neometric Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Neometric Regular'), url('Neometric-Regular.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8e3ef;
+    font-size: small;
+    position: relative;
+}
+
+header {
+    display: flex;
+    background-color: #f5f4f4;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 3em auto -50px auto;
+    height: 5em;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    width: 150px;
+}
+
+header div a {
+    margin-right: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+#inicio {
+    display: grid;
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#inicio img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.apresentacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 70%;
+}
+
+/* #inicio #g {
+    height: ;
+} */
+
+/* #inicio div {
+    width: 30%;
+} */
+
+#sobre {
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    padding: 8em;
+}
+
+#sobre h2 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+
+#sobre p {
+    font-size: 1.5em;
+    font-family: 'Monea Alegante';
+    text-align: justify;
+}
+
+#portifolio {
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    padding: 8em;
+}
+
+#portifolio h2 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+
+#portifolio h3 {
+    text-align: center;
+}
+
+.foto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.foto img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f4f4;
+    width: 80%;
+    margin: 0 auto;
+}
