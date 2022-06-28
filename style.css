@@ -1,5 +1,6 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
     font-size: small;
     position: relative;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -162,19 +164,19 @@ footer {
         align-items: center;
         height: 100vh;
     }
-    
+
     .foto img {
         max-width: 100%;
         max-height: 100%;
         cursor: pointer;
     }
-    
+
     .foto-mk {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
     }
-    
+
     .foto-mk img {
         max-width: 100%;
         max-height: 100%;
@@ -185,7 +187,8 @@ footer {
         width: 80%;
         height: 100vh;
         margin: 0 auto;
-        padding: 8em;
+        /* padding: 8em; */
+        padding-top: 0;
     }
 
     #portifolio {
@@ -193,6 +196,14 @@ footer {
         height: 170vh;
         margin: 0 auto;
         padding: 8em;
+    }
+
+    #inicio {
+        display: grid;
+        width: 80%;
+        height: 60vh;
+        margin: 0 auto;
+        justify-content: space-between;
     }
 }
 
@@ -205,19 +216,19 @@ footer {
         align-items: center;
         height: 100vh;
     }
-    
+
     .foto img {
         max-width: 100%;
         max-height: 100%;
         cursor: pointer;
     }
-    
+
     .foto-mk {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
     }
-    
+
     .foto-mk img {
         max-width: 100%;
         max-height: 100%;
@@ -232,6 +243,40 @@ footer {
     }
 
     #m {
-        display: hidden;
+        display: none;
+    }
+
+    #sobre {
+        width: 80%;
+        height: 455vh;
+        margin: 0 auto;
+        padding: 6em 0 0 0;
+    }
+
+    #portifolio {
+        width: 80%;
+        height: 450vh;
+        margin: 0 auto;
+        padding: 4em 0 0 0;
+    }
+
+    #inicio {
+        display: grid;
+        width: 80%;
+        height: 40vh;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    header img {
+        width: 70px;
+    }
+
+    #s {
+       display: none; 
+    }
+
+    #p {
+       display: none; 
     }
 }
