@@ -248,14 +248,14 @@ footer {
 
     #sobre {
         width: 80%;
-        height: 455vh;
+        height: 260vh;
         margin: 0 auto;
         padding: 6em 0 0 0;
     }
 
     #portifolio {
         width: 80%;
-        height: 450vh;
+        height: 330vh;
         margin: 0 auto;
         padding: 4em 0 0 0;
     }
@@ -263,7 +263,7 @@ footer {
     #inicio {
         display: grid;
         width: 80%;
-        height: 40vh;
+        height: 25vh;
         margin: 0 auto;
         justify-content: space-between;
     }
